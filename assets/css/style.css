@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+.card-header {
+    font-weight: 500;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+/* Custom styles for login pages */
+.login-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* Custom styles for dashboard cards */
+.dashboard-card {
+    transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
